@@ -3,6 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
+      - echo "### GITHUB BUILDSPEC TEST ###
       - echo Start build
       - mkdir -p output
       - ls -la
